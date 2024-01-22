@@ -30,7 +30,7 @@ public class TasksTwo {
 //
 
         int heights1 = 14;
-        for (int i = 14; i >= 0 ; i--) {
+        for (int i = heights1; i >= 0 ; i--) {
             System.out.print(1);
             for (int x = 0; x < i; x++) {
                 System.out.print(0);
