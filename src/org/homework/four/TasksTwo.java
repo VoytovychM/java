@@ -30,17 +30,20 @@ public class TasksTwo {
         }
 
 
-        for (int i = height; i >= 0; i--) {
+        for (int i = height - 1; i >= 0; i--) {
             System.out.print(1);
             for (int x = 0; x < i; x++) {
                 System.out.print(0);
             }
-            if (i != 0) {
+                System.out.println(1);
+            if (i == 0) {
                 System.out.println(1);
             }
-
+            }
 
         }
     }
-}
+
+
+
 
