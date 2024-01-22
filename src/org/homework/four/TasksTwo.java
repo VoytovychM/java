@@ -17,8 +17,13 @@ public class TasksTwo {
 //            System.out.println(i);
 //        }
         int height = 14;
+        printUpperPart(height);
+        printLowerPart(height);
+    }
 
-        for (int i = 0; i <= height; i++) {
+    public static void printUpperPart(int height) {
+        int target = height - 2;
+        for (int i = 0; i <= target; i++) {
             if (i == 0) {
                 System.out.println(1);
             }
@@ -28,22 +33,22 @@ public class TasksTwo {
             }
             System.out.println(1);
         }
+    }
 
-
-        for (int i = height - 1; i >= 0; i--) {
+    public static void printLowerPart(int height) {
+        int target = height - 2;
+        for (int i = target - 1; i >= 0; i--) {
             System.out.print(1);
             for (int x = 0; x < i; x++) {
                 System.out.print(0);
             }
-                System.out.println(1);
+            System.out.println(1);
             if (i == 0) {
                 System.out.println(1);
             }
-            }
-
         }
     }
-
+}
 
 
 
