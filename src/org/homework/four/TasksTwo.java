@@ -16,17 +16,17 @@ public class TasksTwo {
 //        else{
 //            System.out.println(i);
 //        }
-//        int height = 14;
-//        for (int i = 0; i <= height; i++) {
-//            if (i == 0){
-//            System.out.println(1);
-//            }
-//            System.out.print(1);
-//            for (int x = 0; x < i; x++) {
-//                System.out.print(0);
-//            }
-//            System.out.println(1);
-//        }
+        int height = 14;
+        for (int i = 0; i <= height; i++) {
+            if (i == 0){
+            System.out.println(1);
+            }
+            System.out.print(1);
+            for (int x = 0; x < i; x++) {
+                System.out.print(0);
+            }
+            System.out.println(1);
+        }
 //
 
         int heights1 = 14;
