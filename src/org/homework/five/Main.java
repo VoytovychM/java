@@ -26,7 +26,7 @@ public class Main {
         int[] doWhileFibonacci = fibonacciSequence.getFibonacciDoWhile();
         int[] whileFibonacci = fibonacciSequence.getFibonacciWhile();
         int[] forFibonacci = fibonacciSequence.getFibonacciFor();
-        System.out.println("Value of Fibonacci via do while is: " + Arrays.toString( doWhileFibonacci));
+        System.out.println("Value of Fibonacci via do while is: " + Arrays.toString(doWhileFibonacci));
         System.out.println("Value of Fibonacci via while is: " + Arrays.toString(whileFibonacci));
         System.out.println("Value of Fibonacci via for is: " + Arrays.toString(forFibonacci));
 
@@ -34,9 +34,9 @@ public class Main {
         doWhileFibonacci = fibonacciSequence.getFibonacciDoWhile();
         whileFibonacci = fibonacciSequence.getFibonacciWhile();
         forFibonacci = fibonacciSequence.getFibonacciFor();
-        System.out.println("Value of Fibonacci via do while is: " + doWhileFibonacci);
-        System.out.println("Value of Fibonacci via while is: " + whileFibonacci);
-        System.out.println("Value of Fibonacci via for is: " + forFibonacci);
+        System.out.println("Value of Fibonacci via do while is: " + Arrays.toString(doWhileFibonacci));
+        System.out.println("Value of Fibonacci via while is: " + Arrays.toString(whileFibonacci));
+        System.out.println("Value of Fibonacci via for is: " + Arrays.toString(forFibonacci));
     }
 
 }

@@ -50,10 +50,13 @@ public class Factorial {
     }
 
     public void setNumber(int number) {
-        if (number < 0) {
+        if (number > 0) {
+            this.number = number;
+
+        } else {
             System.out.println("You have entered negative number: Error");
         }
-        this.number = number;
+
 
     }
 

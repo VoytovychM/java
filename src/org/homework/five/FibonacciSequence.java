@@ -2,17 +2,21 @@ package org.homework.five;
 
 public class FibonacciSequence {
     private int number;
-    public FibonacciSequence(int number){
+
+    public FibonacciSequence(int number) {
         if (number < 0) {
             System.out.println("You have entered negative number: Error");
-    }
+        }
         this.number = number;
 
-} public FibonacciSequence(){
     }
-    public int[] getFibonacciFor(){
+
+    public FibonacciSequence() {
+    }
+
+    public int[] getFibonacciFor() {
         int[] fibonacci = new int[number];
-        if (number > 1) {
+        if (number >= 0) {
             fibonacci[1] = 1;
         }
 
@@ -22,7 +26,7 @@ public class FibonacciSequence {
         return fibonacci;
     }
 
-    public int[] getFibonacciWhile(){
+    public int[] getFibonacciWhile() {
         int[] fibonacci = new int[number];
         int firstElement = 0;
         int secondElement = 1;
@@ -37,7 +41,8 @@ public class FibonacciSequence {
         }
         return fibonacci;
     }
-    public int[] getFibonacciDoWhile(){
+
+    public int[] getFibonacciDoWhile() {
         int[] fibonacci = new int[number];
         int firstElement = 0;
         int secondElement = 1;
@@ -48,19 +53,22 @@ public class FibonacciSequence {
             firstElement = secondElement;
             secondElement = next;
             i++;
-        }    while (i < number) ;
+        } while (i < number);
 
         return fibonacci;
     }
-    public int getNumber(){
+
+    public int getNumber() {
         return this.number;
 
     }
-    public void setNumber(int number){
-        if (number < 0) {
+
+    public void setNumber(int number) {
+        if (number > 0) {
+            this.number = number;
+        } else {
             System.out.println("You have entered negative number: Error");
         }
-        this.number = number;
     }
 }
 

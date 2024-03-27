@@ -1,4 +1,4 @@
-package three;
+package org.homework.three;
 
 public class FactorialFor {
     public static void main(String[] args) {
